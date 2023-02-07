@@ -7,18 +7,21 @@
 h1 {
     font-family: pokemon solid, Helvetica, sans-serif;
     font-size: 30px;
-    color: #3b4cca;
+    color: #d0d5f5;
     text-align: center;
 }
 h2 {
     font-family: PKMN RBYGSC, Helvetica, sans-serif;
     font-size: 20px;
-    color: #4457e8;
+    color: #fefefe;
     text-align: center;
 }
 body
 {
-    background-image: url('https://i.pinimg.com/564x/58/47/af/5847af7a728446d1526db6b226b74483.jpg');
+    background-image: url('https://i.pinimg.com/originals/c8/77/9f/c8779f09b14cb34c1702187db6f63154.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 </style>
 <h1>
@@ -29,7 +32,8 @@ body
 <h1>Asi se ve tu pokemon:</h1>
 <h1></h2>{{ foto }}</h2>
 <img src="{{ foto }}" alt="pokemon" width="200" height="200"
-title="POK" />    
+ />  
+<!--Ponemos la imagen de foto sin el link-->  
 <h1>El tipo de tu pokemon es:</h1>
 <h2>{{ tipo1 }}</h2>
 <h1>Los movimientos son:</h1>
