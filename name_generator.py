@@ -26,6 +26,8 @@ def nombre():
         if nombre[i] not in silabas and nombre[i+1] not in silabas and nombre[i+2] not in silabas:
             nombre.insert(i+1, random.choice(silabas))
     nombre = "".join(nombre)
+    if nombre[-1] not in silabas:
+        nombre += random.choice(silabas)
     return nombre
 
 print(nombre())
