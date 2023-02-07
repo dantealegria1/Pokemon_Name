@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>My Pokemon</title>
+</head>
+<body>
+<style>
+h1 {
+    font-family: pokemon solid, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #3b4cca;
+    text-align: center;
+}
+h2 {
+    font-family: PKMN RBYGSC, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #4457e8;
+    text-align: center;
+}
+body
+{
+    background-image: url('https://i.pinimg.com/564x/58/47/af/5847af7a728446d1526db6b226b74483.jpg');
+}
+</style>
+<h1>
+    <a href="https://fontmeme.com/pokemon-font/"><img src="https://fontmeme.com/permalink/230207/dd6cb11dd29ae189973a99f0403a6b12.png" alt="pokemon-font" border="0"></a>
+</h1>
+<h1>El nombre de tu pokemon es:</h1>
+<h2>{{ nombre }}</h2>
+<h1>Asi se ve tu pokemon:</h1>
+<h1></h2>{{ foto }}</h2>
+<img src="{{ foto }}" alt="pokemon" width="200" height="200"
+title="POK" />    
+<h1>El tipo de tu pokemon es:</h1>
+<h2>{{ tipo1 }}</h2>
+<h1>Los movimientos son:</h1>
+<h2>{{ move1 }}</h2>
+<h2>{{ move2 }}</h2>
+<h2>{{ move3 }}</h2>
+<h2>{{ move4 }}</h2>
+<h1>Sus Estadisticas son:</h1>
+<h2>hp: {{ hp }}</h2>
+<h2>Ataque: {{ ataque }}</h2>
+<h2>Defensa: {{ defensa }}</h2>
+<h2>Ataque Especial: {{ sp_atk }}</h2>
+<h2>Defensa Especial: {{ sp_def }}</h2>
+<h2>Velocidad: {{ speed }}</h2>
+<h1>Su habilidad es:</h1>
+<h2>{{ ability }}</h2>
+</body>
+</html>
